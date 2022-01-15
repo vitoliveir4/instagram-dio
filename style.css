@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.colunaesquerda {
+    width: 400px;
+}
+
+.instalogo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.colunadireita {
+    border: 0.5px solid #e6e6e6;
+    width: 350px;
+    height: 380px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.coluna {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginform{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    width: 85%;
+    padding: 10px 16px;
+    background-color: #fafafa;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+}
+
+.loginform:focus{
+    outline: #9c9c9c 1px solid;
+    outline-offset: -1px;
+}
+
+input[type=submit] {
+    width: 85%;
+    background-color: #0095f6;
+    color: #fafafa;
+    padding: 8px 14px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin-top: 12px;
+    cursor: pointer;
+  }
+  
+  .linhas{
+    margin-top: 5px;
+    flex-direction: row;
+    display: flex;
+    margin: 10px 40px 18px;
+  }
+
+.linha1{
+    background-color: #e6e6e6;
+    height: 1px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    position: relative;
+    top: .45em;
+}
+
+.linha2{
+    background-color: #e6e6e6;
+    height: 1px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    position: relative;
+    top: .45em;
+}
+
+.textou{
+    margin: 0 18px;
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 600;
+}
+    
+.face{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.textoface{
+    color: #385185;
+    font-weight: 600;
+}
+
+.facelogo{
+    width: 16px;
+    top: .27em;
+    position: relative;
+    margin-right: 8px;
+}
+
+.senha{
+margin-top: 35px;
+font-size: 12px;
+color: #385185;
+}
+
+.colunabaixo {
+    height: 60px;
+    border: 0.5px solid #e6e6e6;
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    border-radius: 2px;
+}
+
+.textonconta{
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.linkcadastro{
+    font-weight: 600;
+   color: #0095f6 ; 
+}
+
+.colunabaixo2{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    flex-wrap: wrap;
+}
+
+.textoapp {
+    color: black;
+    text-align: center;
+    margin: 15px;
+}
+
+.foto{
+    width: 100%;
+    padding: 5px;
+}
+
+.store{
+    width: 300px;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.storelink{
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+
+
+/* midia queries */
+
+@media (max-width: 765px) {
+    .instacelular {
+        display: none;
+    }
+    .colunaesquerda {
+        display: none;
+    }
+}
+
